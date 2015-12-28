@@ -15,6 +15,7 @@
 		E2F420BF1C31779B00CBDA54 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2F420BD1C31779B00CBDA54 /* LaunchScreen.storyboard */; };
 		E2F420CA1C31779B00CBDA54 /* DKAlertControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E2F420C91C31779B00CBDA54 /* DKAlertControllerTests.m */; };
 		E2F420D51C31779B00CBDA54 /* DKAlertControllerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E2F420D41C31779B00CBDA54 /* DKAlertControllerUITests.m */; };
+		E2F420E41C3177B800CBDA54 /* UIViewController+AlertSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = E2F420E31C3177B800CBDA54 /* UIViewController+AlertSheet.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		E2F420D01C31779B00CBDA54 /* DKAlertControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DKAlertControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2F420D41C31779B00CBDA54 /* DKAlertControllerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DKAlertControllerUITests.m; sourceTree = "<group>"; };
 		E2F420D61C31779B00CBDA54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2F420E21C3177B800CBDA54 /* UIViewController+AlertSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+AlertSheet.h"; sourceTree = "<group>"; };
+		E2F420E31C3177B800CBDA54 /* UIViewController+AlertSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+AlertSheet.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				E2F420B31C31779B00CBDA54 /* AppDelegate.m */,
 				E2F420B51C31779B00CBDA54 /* ViewController.h */,
 				E2F420B61C31779B00CBDA54 /* ViewController.m */,
+				E2F420E21C3177B800CBDA54 /* UIViewController+AlertSheet.h */,
+				E2F420E31C3177B800CBDA54 /* UIViewController+AlertSheet.m */,
 				E2F420B81C31779B00CBDA54 /* Main.storyboard */,
 				E2F420BB1C31779B00CBDA54 /* Assets.xcassets */,
 				E2F420BD1C31779B00CBDA54 /* LaunchScreen.storyboard */,
@@ -271,6 +276,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E2F420B71C31779B00CBDA54 /* ViewController.m in Sources */,
+				E2F420E41C3177B800CBDA54 /* UIViewController+AlertSheet.m in Sources */,
 				E2F420B41C31779B00CBDA54 /* AppDelegate.m in Sources */,
 				E2F420B11C31779B00CBDA54 /* main.m in Sources */,
 			);
